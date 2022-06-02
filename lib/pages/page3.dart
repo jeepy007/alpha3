@@ -59,6 +59,7 @@ class _Page3State extends State<Page3> {
                 radius_t: 10,
                 longueur: 150,
                 largeur: 180,
+                icon: Icons.account_tree,
         
             ),
             SizedBox(height: 30,),
@@ -74,6 +75,7 @@ class _Page3State extends State<Page3> {
                 radius_t: 10,
                 longueur: 150,
                 largeur: 180,
+                icon: Icons.abc_sharp,
         
             ),
               ],
@@ -93,6 +95,7 @@ class _Page3State extends State<Page3> {
                 radius_t: 10,
                 longueur: 150,
                 largeur: 180,
+                icon: Icons.account_box,
         
             ),
             SizedBox(height: 30,),
@@ -108,6 +111,7 @@ class _Page3State extends State<Page3> {
                 radius_t: 10,
                 longueur: 150,
                 largeur: 180,
+                icon: Icons.access_time,
         
             ),
              ],
