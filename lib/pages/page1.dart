@@ -8,6 +8,15 @@ class Page1 extends StatefulWidget {
 }
 
 class _Page1State extends State<Page1> {
+   
+   final TextEditingController _Nom1Controler = TextEditingController();
+   final TextEditingController _Nom2Controler = TextEditingController();
+ 
+ 
+
+  
+
+  
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -25,6 +34,7 @@ class _Page1State extends State<Page1> {
                
                     SizedBox(height: 20,),
                     TextFormField(
+                      controller: _Nom1Controler,
                       decoration: InputDecoration(
                         labelText: 'Nom',
                         border: OutlineInputBorder()
@@ -32,6 +42,7 @@ class _Page1State extends State<Page1> {
                     ),
                     SizedBox(height: 20,),
                     TextFormField(
+                      controller: _Nom2Controler,
                       decoration: InputDecoration(
                         labelText: 'Prenoms',
                         border: OutlineInputBorder()
@@ -53,3 +64,9 @@ class _Page1State extends State<Page1> {
     );
   }
 }
+
+  @override
+  Widget build(BuildContext context) {
+    // TODO: implement build
+    throw UnimplementedError();
+  }
