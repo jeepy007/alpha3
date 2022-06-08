@@ -30,7 +30,7 @@ class MyApp extends StatelessWidget {
         // is not restarted.
         primarySwatch: Colors.blue,
       ),
-      home:Page3(),
+      home:page2(),
     );
   }
 }

@@ -29,7 +29,7 @@ class _Page1State extends State<Page1> {
             SizedBox(height: 20),
             Container(
               
-              child: Image.asset('assets/images/finance2.jpeg',)
+              child: Image.asset('assets/images/finance2.jpeg',fit: BoxFit.cover,)
               ),
                
                     SizedBox(height: 20,),
