@@ -1,6 +1,6 @@
 
 import 'package:rxdart/rxdart.dart';
-import 'loading.dart';
+import 'utiles/loading.dart';
 
 
 abstract class BaseBloc {

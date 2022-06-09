@@ -2,6 +2,8 @@ import '../pages/page4.dart';
 import 'children.dart';
 
 class User {
+  Object? iat;
+
     User({
         this.firstname,
         this.lastname,
@@ -9,9 +11,7 @@ class User {
         this.username,
         this.phone,
         this.password,
-        
-        
-       
+        this.id,   
     });
 
     String? firstname;
@@ -20,6 +20,7 @@ class User {
     String? username;
     String? phone;
     String? password;
+    int? id;
    
     factory User.fromJson(Map<String, dynamic> json) => User(
         firstname: json["firstname"],
@@ -28,6 +29,8 @@ class User {
         username: json["username"],
         phone: json["phone"],
         password: json["password"],
+        id: json["id"],
+
         
     );
 
@@ -38,6 +41,6 @@ class User {
         "username": username,
         "phone": phone,
         "password": password,
-        
+        "id": id,
     };
 }
