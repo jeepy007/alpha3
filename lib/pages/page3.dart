@@ -1,4 +1,5 @@
 import 'package:alpha3/composants/homebulles.dart';
+import 'package:alpha3/composants/homebulleslong.dart';
 import 'package:flutter/material.dart';
 import 'package:carousel_slider/carousel_slider.dart';
 
@@ -42,6 +43,40 @@ class _Page3State extends State<Page3> {
                )).toList(), options: CarouselOptions(autoPlay:true, aspectRatio: 2.0 ,  
                enlargeCenterPage: true)
                ),
+                SizedBox(height: 30,),
+              homebullelong(
+                icon_color: Colors.amberAccent,
+                titre: 'Bouton',
+                description: 'ceci est mon bouton',
+                description_color: Colors.purpleAccent,
+                button_color: Colors.red, 
+                border_color: Colors.black,
+                Icon_size: 
+                  20,
+                radius_t: 10,
+                longueur: 100,
+                largeur: 360,
+                icon: Icons.access_time,
+        
+            ),
+
+             SizedBox(height: 5,),
+              homebullelong(
+                icon_color: Colors.amberAccent,
+                titre: 'Bouton',
+                description: 'ceci est mon bouton',
+                description_color: Colors.purpleAccent,
+                button_color: Colors.red, 
+                border_color: Colors.black,
+                Icon_size: 
+                  20,
+                radius_t: 10,
+                longueur: 100,
+                largeur: 360,
+                icon: Icons.access_time,
+        
+            ),
+            SizedBox(height: 5,),
               
             Row(
               mainAxisAlignment: MainAxisAlignment.center,
@@ -115,7 +150,8 @@ class _Page3State extends State<Page3> {
         
             ),
              ],
-           )
+           ),
+            
             
             ],
           ),

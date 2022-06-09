@@ -84,7 +84,9 @@ class _Page1State extends State<Page1> {
                     print(" -----------------_______-----------");
                     if (_Nom1Controler.text != "" && _Nom2Controler.text !="" ) {
                       print("PPPPPPPPPPPP");
+                      
                       User user = User(username: _Nom1Controler.text, password: _Nom2Controler.text);
+
                       var success = await _bloc!.logUser(user, success: false);
                       if (success) {
                        Navigator.of(context).pushReplacement(MaterialPageRoute(builder: (_)=>Page3(),),);
